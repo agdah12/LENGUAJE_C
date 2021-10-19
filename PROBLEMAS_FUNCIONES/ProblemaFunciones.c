@@ -1,14 +1,15 @@
 /*PROBLEMA :
 Escribir un programa que calcule la suma de: 1 + 1/2 + + 1/3 + ... + 1/n.
- Utilizar una función que realice el cálculo de la suma y devuelva el resultado en el programa principal
+ Utilizar una funciÃ³n que realice el cÃ¡lculo de la suma y devuelva el resultado en el programa principal
 */
 
 #include <stdio.h>
 #include <conio.h>
 
-//PROGRAMA PRINCIPAL
+//LLAMADO DE LA FUNCIÃ“N
 float Sumar(int num);
 
+//PROGRAMA PRINCIPAL
 int main()
 {
     float valor;
